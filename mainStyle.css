@@ -23,6 +23,7 @@ body {
 }
 section {
     padding: 1rem;
+    padding-block: 2rem;
     min-height: 100vh;
     text-align: center;
 }
