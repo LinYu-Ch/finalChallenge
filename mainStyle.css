@@ -7,18 +7,8 @@ body {
     width: 100%;
     font-family: monospace;
     padding: 0;
+    font-size: 48px;
     margin: 0;
-}
-.container {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-}
-.container > * {
-    scroll-snap-align: start;
-    position: relative;
-    scroll-snap-stop: always;
-
 }
 section {
     padding: 1rem;
