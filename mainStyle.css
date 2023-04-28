@@ -16,7 +16,7 @@ body {
     height: 100vh;
 }
 .container > * {
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     position: relative;
     scroll-snap-stop: always;
 
