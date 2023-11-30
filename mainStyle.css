@@ -9,23 +9,13 @@
 body {
     width: 100%;
     font-family: monospace;
-    font-size: 48px;
     padding: 0;
+    font-size: 48px;
     margin: 0;
-}
-.container {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-}
-.container > * {
-    scroll-snap-align: center;
-    position: relative;
-    scroll-snap-stop: always;
-
 }
 section {
     padding: 1rem;
+    padding-block: 2rem;
     min-height: 100vh;
     text-align: center;
 }
